@@ -1,0 +1,45 @@
+#cover {
+  position: fixed;
+  height: 100%;
+  width: 190px;
+  top: 0;
+  left: 0;
+  background: #202123;
+  z-index: 9999;
+}
+/* main {
+  margin-left: 20px;
+  margin-right: 12px;
+} */
+
+.table {
+  width: 800px;
+}
+
+.w-60 {
+  width: 60%;
+}
+
+body.dark {
+  background-color: #343541;
+}
+.dark {
+  color: #d1d5da;
+  margin-top: 80px;
+}
+.light {
+  color: #d1d5da;
+  margin-top: 80px;
+}
+#defaultMessageInput {
+  height: 170px;
+}
+
+.text-xs {
+  font-size: 10pt;
+}
+
+a {
+  text-decoration: none !important;
+  color: #0ba37f;
+}

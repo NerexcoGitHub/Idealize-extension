@@ -1,0 +1,12 @@
+**/.idea/**
+dist_mv2/
+dist_mv3/
+releases/
+/src/manifest.json
+.DS_Store
+docs/.obsidian
+docs/Private
+package-lock.json
+package.json
+.prettierrc.json
+yarn.lock

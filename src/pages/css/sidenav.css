@@ -1,0 +1,62 @@
+/* The sidebar menu */
+.sidenav {
+    height: 70px; /* Set the height of the sidebar */
+    width: 100%; /* Set the width of the sidebar to 100% */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    background-color: #202123; /* Black */
+    overflow-x: auto; /* Enable horizontal scroll if needed */
+    display: flex; /* Display items in a row */
+    justify-content: flex-start; /* Align items to the start (left) */
+    align-items: center; /* Center vertically */
+    padding: 0 20px; /* Add horizontal padding */
+  }
+  
+  .sidenav a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #818181;
+    margin-right: 20px; /* Add spacing between links */
+  }
+  
+  .sidenav svg {
+    fill: #fff;
+  }
+  
+  .sidenav a:hover {
+    background-color: #343541;
+    border-radius: 5px;
+  }
+  
+  /* On smaller screens, reduce padding and font size */
+  @media screen and (max-height: 450px) {
+    .sidenav {
+      height: 50px; /* Reduce height for smaller screens */
+      padding: 0 15px; /* Reduce horizontal padding */
+    }
+  
+    .sidenav a {
+      font-size: 12px;
+      margin-right: 10px; /* Reduce spacing between links */
+    }
+  }
+  
+  
+.top-half {
+    position: absolute;
+    top: 15px;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background-color: #202123; /* Black */
+  }
+  .bottom-half {
+    position: absolute;
+    bottom: 8px;
+    left: 0;
+    right: 0;
+    border-top: 1px solid #4d4d4f;
+    overflow: hidden;
+  }
+  
